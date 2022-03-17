@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Design | Tailwindcss</title>
+  </head>
+  <body class="">
+    <!--! Article -->
+    <div class="text-center text-2xl font-poppins text-slate-300">
+      <p>Responsive Design - Tailwindcss</p>
+    </div>
+
+    <div class="relative mb-10 text-center font-poppins text-sky-500">
+      <p
+        class="absolute font-bold text-sm left-1/2 -translate-x-1/2 lg:hidden sm:hidden"
+      >
+        Article Size - mobile
+      </p>
+      <p
+        class="absolute font-bold text-lg left-1/2 -translate-x-1/2 hidden sm:block lg:hidden"
+      >
+        Article Size - small
+      </p>
+      <p
+        class="absolute font-bold text-2xl left-1/2 -translate-x-1/2 hidden sm:hidden lg:block"
+      >
+        Article Size - large
+      </p>
+    </div>
+
+    <section
+      class="mb-32 p-4 lg:p-0 shadow-2xl shadow-sky-200 mx-auto max-w-md sm:max-w-xl lg:flex lg:max-w-full"
+    >
+      <div class="lg:p-12">
+        <h1 class="text-xl sm:text-3xl font-poppins font-bold text-slate-900">
+          One Piece?Anime Persehabatan!
+        </h1>
+
+        <p class="font-poppins text-xs sm:text-sm text-slate-400 mt-1.5 mb-7">
+          Created by <a href="" class="text-sky-500">Hadiyan Fahmi</a> on March
+          10, 2022
+        </p>
+
+        <img
+          src="src/one piece.jpg"
+          alt=""
+          class="rounded-md sm:w-full lg:hidden"
+        />
+
+        <p class="mt-3 order-5 text-sm sm:text-base font-poppins">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
+          voluptatum blanditiis rerum eveniet voluptatem aliquam tempora! Esse
+          voluptate accusantium, tenetur distinctio nemo sint amet asperiores
+          optio fugiat dolorum repellat possimus est aut
+        </p>
+
+        <a
+          href=""
+          class="bg-sky-500 py-2 px-2 inline-block mt-8 rounded-lg hover:bg-red-500"
+        >
+          <button class="text-sm font-poppins font-bold text-slate-100">
+            Visit all of my pages!
+          </button>
+        </a>
+      </div>
+
+      <!-- HIDDEN -->
+      <div class="hidden lg:flex">
+        <img
+          src="src/one piece.jpg"
+          alt=""
+          class="rounded-tl-full rounded-br-full object-cover object-center"
+        />
+      </div>
+    </section>
+
+    <!--! GALLERY -->
+    <div class="text-center text-2xl font-poppins text-slate-300">
+      <p>Responsive Design - Tailwindcss</p>
+    </div>
+
+    <div class="relative mb-20 text-center font-poppins text-sky-500">
+      <p
+        class="absolute font-bold text-sm left-1/2 -translate-x-1/2 md:hidden sm:hidden xl:hidden"
+      >
+        Gallery Size - mobile
+      </p>
+      <p
+        class="absolute font-bold text-lg left-1/2 -translate-x-1/2 hidden md:hidden sm:block xl:hidden"
+      >
+        Gallery Size - small
+      </p>
+      <p
+        class="absolute font-bold text-2xl left-1/2 -translate-x-1/2 hidden md:block sm:hidden xl:hidden"
+      >
+        Gallery Size - medium
+      </p>
+
+      <p
+        class="absolute font-bold text-4xl left-1/2 -translate-x-1/2 hidden md:hidden sm:hidden xl:block"
+      >
+        Gallery Size - extra large
+      </p>
+    </div>
+
+    <section
+      class="mb-32 px-1 max-w-full sm:flex sm:gap-10 sm:flex-wrap sm:items-center sm:justify-evenly"
+    >
+      <div
+        class="card border border-slate-200 rounded-xl shadow-xl py-4 px-2 font-poppins max-w-full mb-10 sm:max-w-xl md:max-w-xs xl:max-w-sm"
+      >
+        <img
+          src="https://source.unsplash.com/600x400?code"
+          alt=""
+          class="rounded-xl"
+        />
+        <h3 class="mt-4 font-bold text-base">Card Title</h3>
+        <p class="mt-1 font-normal text-xs">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+          maiores eos impedit voluptatum. Alias amet corporis sed. Qui tenetur
+          explicabo deserunt unde facere eaque fuga amet quam ipsa nemo? Totam?
+        </p>
+      </div>
+
+      <div
+        class="card border border-slate-200 rounded-xl shadow-xl py-4 px-2 font-poppins max-w-full mb-10 sm:max-w-xl md:max-w-xs xl:max-w-sm"
+      >
+        <img
+          src="https://source.unsplash.com/600x400?dog"
+          alt=""
+          class="rounded-xl"
+        />
+        <h3 class="mt-4 font-bold text-base">Card Title</h3>
+        <p class="mt-1 font-normal text-xs">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+          maiores eos impedit voluptatum. Alias amet corporis sed. Qui tenetur
+          explicabo deserunt unde facere eaque fuga amet quam ipsa nemo? Totam?
+        </p>
+      </div>
+
+      <div
+        class="card border border-slate-200 rounded-xl shadow-xl py-4 px-2 font-poppins max-w-full mb-10 sm:max-w-xl md:max-w-xs xl:max-w-sm"
+      >
+        <img
+          src="https://source.unsplash.com/600x400?girl"
+          alt=""
+          class="rounded-xl"
+        />
+        <h3 class="mt-4 font-bold text-base">Card Title</h3>
+        <p class="mt-1 font-normal text-xs">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+          maiores eos impedit voluptatum. Alias amet corporis sed. Qui tenetur
+          explicabo deserunt unde facere eaque fuga amet quam ipsa nemo? Totam?
+        </p>
+      </div>
+
+      <div
+        class="card border border-slate-200 rounded-xl shadow-xl py-4 px-2 font-poppins max-w-full mb-10 sm:max-w-xl md:max-w-xs xl:max-w-sm"
+      >
+        <img
+          src="https://source.unsplash.com/600x400?cat"
+          alt=""
+          class="rounded-xl"
+        />
+        <h3 class="mt-4 font-bold text-base">Card Title</h3>
+        <p class="mt-1 font-normal text-xs">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+          maiores eos impedit voluptatum. Alias amet corporis sed. Qui tenetur
+          explicabo deserunt unde facere eaque fuga amet quam ipsa nemo? Totam?
+        </p>
+      </div>
+
+      <div
+        class="card border border-slate-200 rounded-xl shadow-xl py-4 px-2 font-poppins max-w-full mb-10 sm:max-w-xl md:max-w-xs xl:max-w-sm"
+      >
+        <img
+          src="https://source.unsplash.com/600x400?skateboard"
+          alt=""
+          class="rounded-xl"
+        />
+        <h3 class="mt-4 font-bold text-base">Card Title</h3>
+        <p class="mt-1 font-normal text-xs">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+          maiores eos impedit voluptatum. Alias amet corporis sed. Qui tenetur
+          explicabo deserunt unde facere eaque fuga amet quam ipsa nemo? Totam?
+        </p>
+      </div>
+
+      <div
+        class="card border border-slate-200 rounded-xl shadow-xl py-4 px-2 font-poppins max-w-full mb-10 sm:max-w-xl md:max-w-xs xl:max-w-sm"
+      >
+        <img
+          src="https://source.unsplash.com/600x400?football"
+          alt=""
+          class="rounded-xl"
+        />
+        <h3 class="mt-4 font-bold text-base">Card Title</h3>
+        <p class="mt-1 font-normal text-xs">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+          maiores eos impedit voluptatum. Alias amet corporis sed. Qui tenetur
+          explicabo deserunt unde facere eaque fuga amet quam ipsa nemo? Totam?
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
+
+<!-- !NOTE -->
+<!-- ? 
+  ! 1. object-cover
+  ! 2. object-center
+  ! 3. object-top/bottom
+ ?-->
